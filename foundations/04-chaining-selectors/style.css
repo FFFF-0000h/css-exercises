@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+
+/* Apply styles to images with both classes "avatar" and "proportioned" */
+.avatar.proportioned {
+    width: 300px;
+    height: auto; /* Retain original square proportions */
+  }
+  
+  /* Apply styles to images with both classes "avatar" and "distorted" */
+  .avatar.distorted {
+    width: 200px;
+    height: 400px; /* Twice as big as width */
+  }
