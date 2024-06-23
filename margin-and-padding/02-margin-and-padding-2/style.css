@@ -7,21 +7,32 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /* Add padding to the card */
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px; /* Set title font size */
+  padding: 8px; /* Add padding inside the title section */
+  margin-bottom: 8px; /* Add space between title and content */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px; /* Add padding: 16px top/bottom, 8px sides */
+  margin-bottom: 8px; /* Add space between content and button container */
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px; /* Add padding inside the button container */
+  text-align: center; /* Center everything inside */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px; /* Add padding to the button: 8px top/bottom, 24px sides */
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button */
 }
